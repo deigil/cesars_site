@@ -1,0 +1,58 @@
+[debug] [2024-04-11T00:59:06.468Z] ----------------------------------------------------------------------
+[debug] [2024-04-11T00:59:06.471Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mineh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-11T00:59:06.471Z] CLI Version:   13.7.1
+[debug] [2024-04-11T00:59:06.471Z] Platform:      win32
+[debug] [2024-04-11T00:59:06.471Z] Node Version:  v21.7.2
+[debug] [2024-04-11T00:59:06.472Z] Time:          Wed Apr 10 2024 19:59:06 GMT-0500 (Central Daylight Time)
+[debug] [2024-04-11T00:59:06.472Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-11T00:59:06.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-11T00:59:06.482Z] > authorizing via signed-in user (inmortal232@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Coding\cesars_website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-04-11T01:04:25.416Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-04-11T01:04:25.416Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"cesarsite","name":"cesarsite"}
+[debug] [2024-04-11T01:04:25.896Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-04-11T01:04:25.896Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7116430786365787973"}
+[debug] [2024-04-11T01:04:25.897Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 [none]
+[debug] [2024-04-11T01:04:26.337Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 200
+[debug] [2024-04-11T01:04:26.337Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 {"name":"operations/cp.7116430786365787973"}
+[debug] [2024-04-11T01:04:26.845Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-11T01:04:26.845Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 [none]
+[debug] [2024-04-11T01:04:27.310Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 200
+[debug] [2024-04-11T01:04:27.310Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 {"name":"operations/cp.7116430786365787973"}
+[debug] [2024-04-11T01:04:28.317Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-11T01:04:28.318Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 [none]
+[debug] [2024-04-11T01:04:28.690Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 200
+[debug] [2024-04-11T01:04:28.690Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 {"name":"operations/cp.7116430786365787973","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-04-11T01:04:30.694Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-04-11T01:04:30.695Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 [none]
+[debug] [2024-04-11T01:04:31.053Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 200
+[debug] [2024-04-11T01:04:31.054Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7116430786365787973 {"name":"operations/cp.7116430786365787973","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"681656249017","projectId":"cesarsite","lifecycleState":"ACTIVE","name":"cesarsite","createTime":"2024-04-11T01:04:27.273110Z"}}
+[debug] [2024-04-11T01:04:31.055Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/cesarsite:addFirebase [none]
+[debug] [2024-04-11T01:04:31.759Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/cesarsite:addFirebase 403
+[debug] [2024-04-11T01:04:31.759Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/cesarsite:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-11T01:04:31.759Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-11T01:04:31.760Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\mineh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\mineh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
