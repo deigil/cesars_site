@@ -11,6 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_extended_0.88.1_Linux-64bit.tar.gz
+          tar -xf /tmp/hugo.tar.gz -C /tmp
+          sudo mv /tmp/hugo /usr/local/bin/hugo
+          hugo version
+
       - run: hugo
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
