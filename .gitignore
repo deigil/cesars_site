@@ -1,4 +1,3 @@
 themes/
-.github/
-.firebase*
-firebase*
+.firebase
+firebase_service*
