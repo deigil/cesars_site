@@ -1,5 +1,5 @@
 baseurl = ""
-title = "Cesars Website"
+title = "JJ Services"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -19,326 +19,324 @@ paginate = 10
 pluralizelisttitles = false
 
 [menu]
-
-
 # Main menu
-[[menu.main]]
-    name       = "Home"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
+# [[menu.main]]
+#     name       = "Home"
+#     identifier = "menu.home"
+#     url        = "/"
+#     weight     = 1
 
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 1: Default Page"
+#     url        = "/"
+#     weight     = 1
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 2: Application"
+#     url        = "/"
+#     weight     = 2
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 3: Startup"
+#     url        = "/"
+#     weight     = 3
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 4: Agency"
+#     url        = "/"
+#     weight     = 4
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
+# [[menu.main]]
+#     name       = "Option 5: Portfolio"
+#     url        = "/"
+#     weight     = 5
+#     parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Features"
-    identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
-    weight     = 3
+# [[menu.main]]
+#     name       = "Features"
+#     identifier = "menu.features"
+#     url        = "/img/template-easy-customize.png"
+#     weight     = 3
 
-[[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
-    url        = ""
-    weight     = 1
-    parent     = "menu.features"
-    post       = 1
+# [[menu.main]]
+#     name       = "Shortcodes"
+#     identifier = "section.shortcodes"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.features"
+#     post       = 1
 
-[[menu.main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
-    url        = ""
-    weight     = 2
-    parent     = "menu.features"
-    post       = 2
+# [[menu.main]]
+#     name       = "Header variations"
+#     identifier = "section.headervariations"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.features"
+#     post       = 2
 
-[[menu.main]]
-    name       = "Accordions"
-    url        = ""
-    weight     = 1
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Accordions"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Alerts"
-    url        = ""
-    weight     = 2
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Alerts"
+#     url        = ""
+#     weight     = 2
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Buttons"
-    url        = ""
-    weight     = 3
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Buttons"
+#     url        = ""
+#     weight     = 3
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Content Boxes"
-    url        = ""
-    weight     = 4
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Content Boxes"
+#     url        = ""
+#     weight     = 4
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Horizontal Blocks"
-    url        = ""
-    weight     = 5
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Horizontal Blocks"
+#     url        = ""
+#     weight     = 5
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Pagination"
-    url        = ""
-    weight     = 6
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Pagination"
+#     url        = ""
+#     weight     = 6
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Tabs"
-    url        = ""
-    weight     = 7
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Tabs"
+#     url        = ""
+#     weight     = 7
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
+# [[menu.main]]
+#     name       = "Typography"
+#     url        = ""
+#     weight     = 8
+#     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Default Sticky Header"
-    url        = ""
-    weight     = 1
-    parent     = "section.headervariations"
+# [[menu.main]]
+#     name       = "Default Sticky Header"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.headervariations"
 
-[[menu.main]]
-    name       = "No Sticky Header"
-    url        = ""
-    weight     = 2
-    parent     = "section.headervariations"
+# [[menu.main]]
+#     name       = "No Sticky Header"
+#     url        = ""
+#     weight     = 2
+#     parent     = "section.headervariations"
 
-[[menu.main]]
-    name       = "Light Header"
-    url        = ""
-    weight     = 3
-    parent     = "section.headervariations"
+# [[menu.main]]
+#     name       = "Light Header"
+#     url        = ""
+#     weight     = 3
+#     parent     = "section.headervariations"
 
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
-    weight     = 3
+# [[menu.main]]
+#     name       = "Portfolio"
+#     identifier = "menu.portfolio"
+#     url        = "/img/template-homepage.png"
+#     weight     = 3
 
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.portfolio"
-    post       = 1
+# [[menu.main]]
+#     name       = "Portfolio"
+#     identifier = "section.portfolio"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.portfolio"
+#     post       = 1
 
-[[menu.main]]
-    name       = "2 Columns"
-    url        = ""
-    weight     = 1
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "2 Columns"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "2 Columns With Negative Space"
-    url        = ""
-    weight     = 2
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "2 Columns With Negative Space"
+#     url        = ""
+#     weight     = 2
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "3 Columns"
-    url        = ""
-    weight     = 3
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "3 Columns"
+#     url        = ""
+#     weight     = 3
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "3 Columns With Negative Space"
-    url        = ""
-    weight     = 4
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "3 Columns With Negative Space"
+#     url        = ""
+#     weight     = 4
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "4 Columns"
-    url        = ""
-    weight     = 5
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "4 Columns"
+#     url        = ""
+#     weight     = 5
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "4 Columns With Negative Space"
-    url        = ""
-    weight     = 6
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "4 Columns With Negative Space"
+#     url        = ""
+#     weight     = 6
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "Portfolio - detail"
-    url        = ""
-    weight     = 7
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "Portfolio - detail"
+#     url        = ""
+#     weight     = 7
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "Portfolio - detail 2"
-    url        = ""
-    weight     = 8
-    parent     = "section.portfolio"
+# [[menu.main]]
+#     name       = "Portfolio - detail 2"
+#     url        = ""
+#     weight     = 8
+#     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "About"
-    identifier = "section.about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.portfolio"
-    post       = 2
+# [[menu.main]]
+#     name       = "About"
+#     identifier = "section.about"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.portfolio"
+#     post       = 2
 
-[[menu.main]]
-    name       = "About Us"
-    url        = ""
-    weight     = 1
-    parent     = "section.about"
+# [[menu.main]]
+#     name       = "About Us"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.about"
 
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
+# [[menu.main]]
+#     name       = "Our Team"
+#     url        = ""
+#     weight     = 2
+#     parent     = "section.about"
 
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.portfolio"
-    post       = 2
+# [[menu.main]]
+#     name       = "Marketing"
+#     identifier = "section.marketing"
+#     url        = ""
+#     weight     = 3
+#     parent     = "menu.portfolio"
+#     post       = 2
 
-[[menu.main]]
-    name       = "Packages"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
+# [[menu.main]]
+#     name       = "Packages"
+#     url        = ""
+#     weight     = 1
+#     parent     = "section.marketing"
 
-[[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
-    url        = ""
-    weight     = 4
+# [[menu.main]]
+#     name       = "All Pages"
+#     identifier = "menu.allpages"
+#     url        = ""
+#     weight     = 4
 
-[[menu.main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 1
+# [[menu.main]]
+#     name       = "Home"
+#     identifier = "section.ap-home"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.allpages"
+#     post       = 1
 
-[[menu.main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 1
+# [[menu.main]]
+#     name       = "About"
+#     identifier = "section.ap-about"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.allpages"
+#     post       = 1
 
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 1
+# [[menu.main]]
+#     name       = "Marketing"
+#     identifier = "section.ap-marketing"
+#     url        = ""
+#     weight     = 3
+#     parent     = "menu.allpages"
+#     post       = 1
 
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 2
+# [[menu.main]]
+#     name       = "Portfolio"
+#     identifier = "section.ap-portfolio"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.allpages"
+#     post       = 2
 
-[[menu.main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 2
+# [[menu.main]]
+#     name       = "User Pages"
+#     identifier = "section.ap-userpages"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.allpages"
+#     post       = 2
 
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
+# [[menu.main]]
+#     name       = "Shop"
+#     identifier = "section.ap-shop"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.allpages"
+#     post       = 3
 
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
+# [[menu.main]]
+#     name       = "Shop - Order Process"
+#     identifier = "section.ap-shoporderprocess"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.allpages"
+#     post       = 3
 
-[[menu.main]]
-    name       = "Contact"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 4
+# [[menu.main]]
+#     name       = "Contact"
+#     identifier = "section.ap-contact"
+#     url        = ""
+#     weight     = 1
+#     parent     = "menu.allpages"
+#     post       = 4
 
-[[menu.main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 4
+# [[menu.main]]
+#     name       = "Pages"
+#     identifier = "section.ap-pages"
+#     url        = ""
+#     weight     = 2
+#     parent     = "menu.allpages"
+#     post       = 4
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "section.ap-blog"
+#     url        = "/blog/"
+#     weight     = 3
+#     parent     = "menu.allpages"
+#     post       = 4
 
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
+# [[menu.main]]
+#     name       = "Blog Listing Big"
+#     url        = "/blog/"
+#     weight     = 1
+#     parent     = "section.ap-blog"
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 5
+# [[menu.main]]
+#     name       = "Blog"
+#     identifier = "menu.blog"
+#     url        = "/blog/"
+#     weight     = 5
 
 [[menu.main]]
     name       = "FAQ"
@@ -358,14 +356,14 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:+1 773 576 8637"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+# [[menu.topbar]]
+#     weight = 2
+#     name = "GitHub"
+#     url = "https://github.com/devcows/hugo-universal-theme"
+#     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 3
@@ -374,28 +372,34 @@ pluralizelisttitles = false
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    weight = 3
+    name = "Instagram"
+    url = "http://instagram.com"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
 
-[[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:hello@universal.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+# [[menu.topbar]]
+#     weight = 4
+#     name = "Twitter"
+#     url = "http://twitter.com"
+#     pre = "<i class='fab fa-2x fa-twitter'></i>"
+
+# [[menu.topbar]]
+#     weight = 5
+#     name = "Email"
+#     url = "mailto:hello@universal.com"
+#     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
+    author = "Dei"
+    defaultKeywords = [""]
+    mainSections = [""]
+    defaultDescription = "Site template made by Devcows using Hugo and modified by Dei"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    twitter_site = "" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/sharing-jj.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = true
@@ -441,8 +445,8 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p><strong>No mission is too complex.</strong></p>"
+    copyright = "Copyright (c) 2024, JJ Services; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -450,20 +454,11 @@ pluralizelisttitles = false
     dropdown_mouse_over = false
 
     disabled_logo = true
-    logo_text = "Cesars"
+    logo_text = "JJ Services"
 
-    logo = "img/logo.png"
+    logo = "img/logo-jj.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -471,9 +466,8 @@ pluralizelisttitles = false
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +1 773 576 8637 or cesar@email.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +1 773 576 8637 or +1 312 513 7353</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+1 773 576 8637" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       </p>
       """
 
@@ -520,7 +514,7 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -528,7 +522,7 @@ pluralizelisttitles = false
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
@@ -536,13 +530,13 @@ pluralizelisttitles = false
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
 
 [taxonomies]
   category = "categories"
