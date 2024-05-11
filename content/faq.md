@@ -4,40 +4,45 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+We know this can be a stressful and difficult time for anyone. We want to make it eaiser and guide you through the process. Here are a few questions that you may have with our services:
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+## 1. HOW DO I PREPARE FOR MY UPCOMING MOVE?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+To ensure a smooth moving process, we recommend the following:
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* Start packing early to avoid last-minute stress.
+* Label your boxes clearly for easy identification.
+* Notify relevant parties about your change of address.
+* Make the team aware of any pets or plants for the move.
 
-## 2. WHAT ARE THE POSTAL RATES?
+## 2. WHAT ARE THE RATES?
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+Rates are handled per client basis and vary. Factors that affect rates are:
 
-## 3. DO YOU SEND OVERSEAS?
+* Time
+* Location
+* Quantity
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+Please note that the final rates are very competitive and negotiable to an extent.
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+## 3. CAN YOU HANDLE SPECIALTY ITEMS LIKE PIANOS OR ANTIQUES?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Yes, our experienced team is trained to handle specialty items with care. We use specialized equipment and techniques to ensure your valuables are transported safely.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+## 4. HOW FAR IN ADVANCE SHOULD I BOOK MY MOVE?
 
-## 5. ANOTHER IMPORTANT QUESTION
+We recommend booking your move as soon as possible to secure your preferred moving date. During peak seasons, such as summer months, it's best to book at least a few weeks in advance to guarantee availability.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## 5. WHAT MEASURES ARE IN PLACE TO PROTECT MY BELONGINGS DURING THE MOVE?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+We take every precaution to safeguard your belongings throughout the moving process. This includes but is not limited to: 
+
+* High-quality packing materials 
+* Secure loading techniques
+* Extreme care in transferring
+
+Our team is trained and ready to tackle the challenge just the way you want it!
 
 ---
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+> If you have any other questions or need further assistance, please don't hesitate to reach out to [us](/contact). We're here to help!

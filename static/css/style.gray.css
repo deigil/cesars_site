@@ -86,11 +86,12 @@ button {
   }
 }
 p.lead {
+  text-align: center;
   margin-bottom: 40px;
 }
 section,
 div.section {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -227,6 +228,9 @@ ul.list-style-none {
 }
 .features-buttons button {
   margin-bottom: 20px;
+}
+.features {
+  margin-top: 20px;
 }
 @media (min-width: 1300px) {
   body.boxed {
@@ -1710,6 +1714,16 @@ fieldset[disabled] .btn-template-primary.active {
 .box .box-header:after {
   clear: both;
 }
+.footer-container{
+  position: relative;
+  top: 210px;
+}
+#footer {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+}
 .box .box-footer {
   background: #f7f7f7;
   margin: 30px 0 -20px;
@@ -1741,7 +1755,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-green.png') center center repeat;
+  background: url('../img/texture-bw.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1767,10 +1781,10 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-green.png') center center repeat;
+  background: url('../img/texture-bw.png') center center repeat;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -2622,11 +2636,16 @@ fieldset[disabled] .btn-template-primary.active {
   color: var(--primary-accent);
 }
 #copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 20px 0; /* Adjust padding as needed */
   font-size: 12px;
   line-height: 28px;
+  text-align: center; /* Center-align the content */
 }
 #copyright p {
   margin: 0;
@@ -3397,7 +3416,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 p {
@@ -3579,3 +3598,4 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+
