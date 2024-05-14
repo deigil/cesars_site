@@ -86,11 +86,11 @@ button {
   }
 }
 p.lead {
-  margin-bottom: 40px;
+  text-align: center;
 }
 section,
 div.section {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .no-mb {
   margin-bottom: 0 !important;
@@ -227,6 +227,9 @@ ul.list-style-none {
 }
 .features-buttons button {
   margin-bottom: 20px;
+}
+.features {
+  margin-top: 20px;
 }
 @media (min-width: 1300px) {
   body.boxed {
@@ -1710,6 +1713,24 @@ fieldset[disabled] .btn-template-primary.active {
 .box .box-header:after {
   clear: both;
 }
+.footer-container{
+  position: relative;
+  padding-bottom: 50px;
+}
+#footer {
+  position: relative;
+  background: #555555;
+  padding: 30px 0;
+  color: #999999;
+  width: 100%;
+  height: 150px;
+}
+@media (max-width: 991px) {
+  #footer strong {
+    float: none !important;
+    margin-bottom: 20px;
+  }
+}
 .box .box-footer {
   background: #f7f7f7;
   margin: 30px 0 -20px;
@@ -1741,7 +1762,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-green.png') center center repeat;
+  background: url('../img/texture-bw.png') center center repeat;
   padding: 20px 0;
   margin-bottom: 40px;
 }
@@ -1767,10 +1788,10 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .bar.background-pentagon {
-  background: url('../img/texture-green.png') center center repeat;
+  background: url('../img/texture-bw.png') center center repeat;
   border-top: solid 1px #999999;
   border-bottom: solid 1px #999999;
 }
@@ -2525,11 +2546,6 @@ fieldset[disabled] .btn-template-primary.active {
 #get-it p {
   margin: 0 0 20px;
 }
-#footer {
-  background: #555555;
-  padding: 50px 0;
-  color: #999999;
-}
 #footer h1,
 #footer h2,
 #footer h3,
@@ -2622,11 +2638,16 @@ fieldset[disabled] .btn-template-primary.active {
   color: var(--primary-accent);
 }
 #copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background: #333;
   color: #ccc;
-  padding: 50px 0;
+  padding: 20px 0; /* Adjust padding as needed */
   font-size: 12px;
   line-height: 28px;
+  text-align: center; /* Center-align the content */
 }
 #copyright p {
   margin: 0;
@@ -2634,8 +2655,11 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 991px) {
   #copyright p {
     float: none !important;
-    text-align: center;
-    margin-bottom: 10px;
+  }
+}
+@media (max-width: 991px) {
+  #copyright {
+    margin-top: 0px;
   }
 }
 [data-animate] {
@@ -3397,7 +3421,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 p {
@@ -3578,4 +3602,12 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+#contact {
+  padding-bottom: 150px;
+}
+@media screen and (max-width: 991px) {
+  #contact {
+    padding-bottom: 80px; /* Increase padding for smaller screens */
+  }
 }
